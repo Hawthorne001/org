@@ -30,10 +30,27 @@ teams:
     privacy: closed
     repos:
       jobset: write
+  kjob-admins:
+    description: Admin access to kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: admin
+  kjob-maintainers:
+    description: Write access to kjob repo
+    members:
+    - mimowo
+    - mwielgus
+    privacy: closed
+    repos:
+      kjob: write
   lws-admins:
     description: Admin access to lws repo
     members:
     - ahg-g
+    - liurupeng
     privacy: closed
     repos:
       lws: admin
@@ -41,6 +58,7 @@ teams:
     description: Write access to lws repo
     members:
     - ahg-g
+    - liurupeng
     privacy: closed
     repos:
       lws: write

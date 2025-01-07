@@ -17,6 +17,9 @@ teams:
     - cooldracula
     - heyste
     - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
     privacy: closed
     repos:
       apisnoop: admin
@@ -27,6 +30,49 @@ teams:
     - cooldracula
     - heyste
     - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
     privacy: closed
     repos:
       apisnoop: write
+  verify-conformance-admins:
+    description: admin access to the verify-conformance repo
+    members:
+    - BobyMCbobs
+    - heyste
+    - hh
+    - koksay
+    - mfahlandt
+    - xmudrii
+    privacy: closed
+    repos:
+      verify-conformance: admin
+  wg-device-management-admins:
+    description: Admin access to wg-device-management repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      wg-device-management: admin
+  wg-device-management-maintainers:
+    description: Write access to wg-device-management repo
+    members:
+    - johnbelamaric
+    - klueska
+    - pohly
+    privacy: closed
+    repos:
+      wg-device-management: write
+  wg-serving-admins:
+    description: Admin access to the wg-serving repo
+    members:
+    - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
+    - terrytangyuan
+    privacy: closed
+    repos:
+      wg-serving: admin

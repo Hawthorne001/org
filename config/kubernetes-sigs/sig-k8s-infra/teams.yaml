@@ -6,6 +6,7 @@ teams:
     - BenTheElder
     - dims
     - upodroid
+    - xmudrii
     privacy: closed
     repos:
       community-images: admin
@@ -14,7 +15,6 @@ teams:
     members:
       - ameukam
       - dims
-      - spiffxp
       - thockin
     privacy: closed
     repos:
@@ -24,7 +24,6 @@ teams:
     members:
     - ameukam
     - dims
-    - spiffxp
     - thockin
     privacy: closed
     repos:
@@ -36,9 +35,9 @@ teams:
     - bentheelder
     - dims
     - justinsb
-    - spiffxp
     - thockin
     - upodroid
+    - xmudrii
     privacy: closed
     repos:
       porche: admin
@@ -49,7 +48,6 @@ teams:
       - bentheelder
       - dims
       - justinsb
-      - spiffxp
       - thockin
     privacy: closed
     repos:
@@ -61,7 +59,6 @@ teams:
     - bentheelder
     - dims
     - justinsb
-    - spiffxp
     - thockin
     privacy: closed
     repos:

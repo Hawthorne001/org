@@ -19,6 +19,7 @@ members:
 - alexander-ding
 - ameukam
 - amolmote
+- AndrewSirenko
 - andrewsykim
 - andyzhangx
 - arahamad
@@ -27,6 +28,7 @@ members:
 - bells17
 - bertinatto
 - bswartz
+- carlbraganza
 - carlory
 - chrishenzie
 - cofyc
@@ -39,10 +41,14 @@ members:
 - deepakkinni
 - dobsonj
 - dulek
+- ElijahQuinones
 - EmilienM
 - ezzoueidi
 - ggriffiths
 - gnufied
+- gryf
+- hairyhum
+- hime
 - humblec
 - huntergregory
 - idealhack
@@ -61,8 +67,10 @@ members:
 - kfox1111
 - leakingtapan
 - leiyiz
+- leonardoce
 - lizhuqi
 - lpabon
+- Madhu-1
 - MartinForReal
 - mattcary
 - mauriciopoppe
@@ -78,19 +86,23 @@ members:
 - pierreprinetti
 - pohly
 - Pradumnasaraf
+- PrasadG193
 - prateekpandey14
 - pwschuurman
+- Rakshith-R
 - RaunakShah
 - rlenferink
 - RomanBednar
 - saad-ali
 - saikat-royc
 - savitharaghunathan
+- smileusd
 - Sneha-at
 - spiffxp
 - sunnylovestiramisu
 - torredil
 - ttakahashi21
+- tyuchn
 - vladimirvivien
 - wackxu
 - wozniakjan
@@ -531,6 +543,28 @@ teams:
     privacy: closed
     repos:
       external-resizer: write
+  external-snapshot-metadata-admins:
+    description: Admin access to external-snapshot-metadata repo
+    members:
+    - ihcsim
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      external-snapshot-metadata: admin
+  external-snapshot-metadata-maintainers:
+    description: Write access to external-snapshot-metadata repo
+    members:
+    - ihcsim
+    - jsafrane
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      external-snapshot-metadata: write
   external-snapshotter-admins:
     description: Admin access to external-snapshotter repo
     members:

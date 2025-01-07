@@ -10,7 +10,7 @@ admins:
 - thelinuxfoundation
 billing_email: github@kubernetes.io
 default_repository_permission: read
-description: Kubernetes
+description: Production-Grade Container Scheduling and Management
 has_organization_projects: true
 has_repository_projects: true
 members:
@@ -23,20 +23,28 @@ members:
 - a-mccarthy
 - a7i
 - aanm
+- aaron-prindle
+- aauren
 - abhijeet-26
 - abhiraut
 - Abirdcfly
+- abursavich
+- Adarsh-verma-14
 - adelina-t
+- adilGhaffarDev
 - adisky
 - adityabhatia
 - adityasamant25
 - AdminTurnedDevOps
+- adowair
 - adriananeci
 - adrianchiris
+- adrianmoisey
 - adtac
 - AevaOnline
 - afbjorklund
 - afirth
+- ah8ad3
 - ahg-g
 - ahmedtd
 - ahmetb
@@ -70,14 +78,17 @@ members:
 - Amulyam24
 - AnaMMedina21
 - AndiDog
+- AndrewSirenko
 - andrewsykim
 - andyxning
 - andyzhangx
 - anfernee
 - anguslees
 - aniruddha2000
+- AnishShah
 - Ankitasw
 - annasong20
+- AnshumanTripathi
 - ant31
 - anubha-v-ardhan
 - anyulled
@@ -95,7 +106,9 @@ members:
 - ariscahyadi
 - ArkaSaha30
 - aroradaman
+- arujjval
 - arunmk
+- ArvindParekh
 - aryan9600
 - asa3311
 - asem-hamid
@@ -108,12 +121,15 @@ members:
 - atiratree
 - atoato88
 - Atoms
+- atosatto
 - AuraSinis
 - AverageMarcus
 - aveshagarwal
 - AvineshTripathi
 - AxeZhan
+- azaynul10
 - azylinski
+- b1gb4by
 - Babapool
 - barney-s
 - bart0sh
@@ -121,6 +137,7 @@ members:
 - bconfiden2
 - bells17
 - bene2k1
+- benjaminapetersen
 - BenjaminKazemi
 - benluddy
 - benmoss
@@ -137,6 +154,7 @@ members:
 - blakebarnett
 - bobbypage
 - BobyMCbobs
+- bouaouda-achraf
 - bowei
 - bparees
 - bradmccoydev
@@ -146,6 +164,7 @@ members:
 - brendandburns
 - brianpursley
 - bridgetkromhout
+- bryan-cox
 - Bryce-Soghigian
 - brysonshepherd
 - bsalamat
@@ -159,7 +178,7 @@ members:
 - cadmuxe
 - caesarxuchao
 - cahillsf
-- cailynse
+- cailyn-codes
 - calvin0327
 - camilamacedo86
 - caniszczyk
@@ -175,6 +194,7 @@ members:
 - CecileRobertMichon
 - celestehorgan
 - cezarygerard
+- chadmcrowell
 - chadswen
 - chancez
 - chanieljdan
@@ -201,6 +221,7 @@ members:
 - chriskim06
 - chrisnegus
 - chrisohaver
+- christianang
 - christopherhein
 - chymy
 - cici37
@@ -209,12 +230,15 @@ members:
 - cji
 - cjwagner
 - claudiubelu
+- cloudmelon
 - cndoit18
 - cnmcavoy
 - code-elinka
 - coderanger
 - CoderSherlock
 - cofyc
+- ComradeProgrammer
+- comtalyst
 - ConnorJC3
 - coulof
 - cpanato
@@ -257,6 +281,7 @@ members:
 - derekwaynecarr
 - desaintmartin
 - destijl
+- deszhou
 - detiber
 - devigned
 - devlware
@@ -282,6 +307,7 @@ members:
 - dlorenc
 - dntosas
 - dobsonj
+- dom4ha
 - dougm
 - dougsland
 - dpasiukevich
@@ -298,16 +324,20 @@ members:
 - ecordell
 - eddiezane
 - eddycharly
+- edithturn
 - edsoncelio
 - eduartua
+- Edwinhr716
 - ehashman
 - Elbehery
 - electrocucaracha
 - elezar
+- ElijahQuinones
 - ellistarn
 - elmiko
 - ElvinEfendi
 - embano1
+- embik
 - EmilienM
 - endocrimes
 - engedaam
@@ -320,6 +350,7 @@ members:
 - ErikJiang
 - errordeveloper
 - esigo
+- esotsal
 - everpeace
 - ezzoueidi
 - fabi200123
@@ -328,6 +359,7 @@ members:
 - faiq
 - Fale
 - Fan-Lin
+- fatsheep9146
 - fedebongio
 - Fedosin
 - Fei-Guo
@@ -335,12 +367,14 @@ members:
 - feloy
 - FeLvi-zzz
 - femrtnz
+- fengshunli
 - FengyunPan2
 - ffromani
 - FillZpp
 - Fish-pro
 - fiunchinho
 - fkautz
+- flawedmatrix
 - floreks
 - fmuyassarov
 - fpetkovski
@@ -352,6 +386,7 @@ members:
 - fykaa
 - g-gaston
 - gab-satchi
+- gabesaba
 - Gacko
 - gandhipr
 - Garrybest
@@ -369,15 +404,19 @@ members:
 - gman0
 - gnufied
 - gochist
+- googs1025
 - gottwald
 - gouthampacha
 - gracenng
+- gryf
 - guineveresaenger
 - gujingit
 - gyohuangxin
 - gyuho
+- H13m0n
 - habibrosyad
 - hackeramitkumar
+- hacktivist123
 - hailkomputer
 - haircommander
 - hakman
@@ -409,6 +448,7 @@ members:
 - Huang-Wei
 - humblec
 - huntergregory
+- huww98
 - huynguyennovem
 - hwdef
 - hzxuzhonghu
@@ -420,6 +460,7 @@ members:
 - Iceber
 - idealhack
 - idvoretskyi
+- iftachk
 - ihcsim
 - iholder101
 - ike-ma
@@ -434,6 +475,7 @@ members:
 - irvifa
 - ithrael
 - itskingori
+- ivanvc
 - ivelichkovich
 - ixdy
 - jackfrancis
@@ -462,7 +504,9 @@ members:
 - jdumars
 - jeefy
 - Jefftree
+- jefftrojan
 - jeffwan
+- jenshu
 - jeremyje
 - JeremyOT
 - jeremyrickard
@@ -526,6 +570,7 @@ members:
 - kaisoz
 - kakts
 - kannon92
+- karenhchu
 - karlkfi
 - Karthik-K-N
 - Kasambx
@@ -537,15 +582,18 @@ members:
 - kayrus
 - kbhawkey
 - kcmartin
+- Kei-Ta
 - keithmattix
 - kendallnelson
 - kerthcet
 - kevin-wangzefeng
 - kevindelgado
+- kfswain
 - kgolab
 - khareyash05
 - khenidak
 - kiashok
+- Kid-Chang
 - kikisdeliveryservice
 - killianmuldoon
 - kinzhi
@@ -556,6 +604,7 @@ members:
 - KKtheGhost
 - kl52752
 - klueska
+- kmala
 - knabben
 - knee-berts
 - knelasevero
@@ -576,20 +625,24 @@ members:
 - kundan2707
 - kvaps
 - kwiesmueller
+- kwilczynski
 - lachie83
 - lambdanis
 - landreasyan
 - lapee79
-- LappleApple
 - lauchokyip
 - lauralorenz
+- LaurentGoderre
 - lavalamp
+- lavishpal
 - laxmikantbpandhare
 - leakingtapan
 - leilajal
 - leiyiz
+- lengrongfu
 - lentzi90
 - leonardpahlke
+- levi106
 - levikobi
 - lianghao208
 - liggitt
@@ -599,15 +652,19 @@ members:
 - LingyanYin
 - linki
 - linxiulei
+- LionelJouin
 - LiorLieberman
 - listx
 - liupeng0518
+- liurupeng
+- liyuerich
 - lizhuqi
 - lobziik
 - logicalhan
 - lojies
 - longwuyuan
 - lou-lan
+- lowang-bh
 - lpabon
 - lubronzhan
 - lukaszgryglicki
@@ -621,6 +678,7 @@ members:
 - m1kola
 - maciaszczykm
 - MaciekPytel
+- macsko
 - Madhan-SWE
 - mandre
 - mansikulkarni96
@@ -640,8 +698,10 @@ members:
 - mattfenwick
 - matthyx
 - mattiaperi
+- mauri870
 - mauriciopoppe
 - MaxymVlasov
+- mbianchidev
 - mboersma
 - mborsz
 - mboukhalfa
@@ -662,6 +722,7 @@ members:
 - michaelgugino
 - micheleberardi
 - michelle192837
+- michellengnx
 - mickeyboxell
 - mikebrow
 - mikedanese
@@ -677,6 +738,7 @@ members:
 - mk46
 - mkimuram
 - mkumatag
+- mlavacca
 - mloiseleur
 - mloskot
 - mm4tt
@@ -694,11 +756,13 @@ members:
 - mortent
 - moshe010
 - moshevayner
+- mowangdk
 - mpatlasov
 - mpherman2
 - mpuckett159
 - MrErlison
 - mresvanis
+- MrFreezeex
 - mrgiles
 - MrHohn
 - mrueg
@@ -736,6 +800,7 @@ members:
 - negz
 - neoaggelos
 - neolit123
+- network-charles
 - nicolehanjing
 - NikhilSharmaWe
 - nilekhc
@@ -762,6 +827,7 @@ members:
 - olemarkus
 - oliviassss
 - olivierlemasle
+- omerap12
 - onestone9900
 - onlydole
 - oomichi
@@ -778,6 +844,7 @@ members:
 - pawbana
 - pbetkier
 - pegasas
+- Penguin-zlh
 - perriea
 - petr-muller
 - phenixblue
@@ -792,6 +859,7 @@ members:
 - pjbgf
 - pjh
 - pkprzekwas
+- pmalek
 - pmorie
 - pnbrown
 - pohly
@@ -806,8 +874,10 @@ members:
 - pravarag
 - presztak
 - prezha
+- prianna
 - Princesso
 - PriyanshuAhlawat
+- Prucek
 - psschwei
 - puerco
 - puja108
@@ -844,6 +914,8 @@ members:
 - ravisantoshgudimetla
 - rayandas
 - rayowang
+- raywainman
+- rdalbuquerque
 - rdrgmnzs
 - reetasingh
 - Rei1010
@@ -854,7 +926,8 @@ members:
 - rf232
 - rficcaglia
 - rhockenbury
-- Riaankl
+- riaankleinhans
+- ricardoapl
 - Richabanker
 - richackard
 - richardcase
@@ -866,6 +939,7 @@ members:
 - Rishit-dagli
 - ritazh
 - Ritikaa96
+- ritikaguptams
 - rjbez17
 - rjsadow
 - rlenferink
@@ -879,24 +953,30 @@ members:
 - rothgar
 - roycaihw
 - rphillips
+- rschalo
 - ruheenaansari34
 - ruiwen-zhao
 - ruquanzhao
 - RyanAoh
+- rytswd
 - s-kawamura-w664
 - s-urbaniak
 - saad-ali
 - saikat-royc
 - sairameshv
 - saiyam1814
+- sajibAdhi
+- salasberryfin
 - salaxander
 - salehsedghpour
 - sallyom
 - saltbo
 - sam-cogan
 - sambdavidson
+- samuelkarp
 - sanchezl
 - sanchita-07
+- sandeepkanabar
 - SandeepPissay
 - sandipanpanda
 - sanposhiho
@@ -910,6 +990,7 @@ members:
 - satyampsoni
 - saurav-agarwalla
 - savitharaghunathan
+- sawsa307
 - sayanchowdhury
 - sayantani11
 - sbangari
@@ -924,11 +1005,13 @@ members:
 - seanschneeweiss
 - sebastienvas
 - seh
+- seifrajhi
 - Seo-yul
 - seokho-son
 - serathius
 - serbrech
 - SergeyKanzhelev
+- sergeyshevch
 - sfotony
 - sftim
 - Sh4d1
@@ -938,22 +1021,31 @@ members:
 - sharifelgamal
 - shatoboar
 - shawnhanx
+- shecodesmagic
+- shijinye
 - ShivamTyagi12345
-- shivanshu1333
 - shu-mutou
 - Shubham82
 - shuheiktgw
 - shurup
 - shyamjvs
+- silvery1622
+- SimonBaeumer
+- sivchari
 - siyuanfoundation
 - sjenning
 - Skarlso
 - skitt
+- skriss
 - sladyn98
 - Smana
 - smarterclayton
 - smg247
+- smileusd
+- sn3hay
 - Sneha-at
+- snehachhabria
+- sohankunkerkar
 - soltysh
 - SomtochiAma
 - sonasingh46
@@ -971,10 +1063,12 @@ members:
 - squeed
 - sreeram-venkitesh
 - srikiz
+- srivastav-abhishek
 - srm09
 - SRodi
 - stealthybox
 - stephenfin
+- steve-hardman
 - stevekuznetsov
 - stlaz
 - stmcginnis
@@ -985,6 +1079,7 @@ members:
 - SubhasmitaSw
 - sudermanjr
 - suning0
+- sunjayBhatia
 - sunnylovestiramisu
 - sunpa93
 - superbrothers
@@ -1005,15 +1100,19 @@ members:
 - tanjunchen
 - tao12345666333
 - tariq1890
+- tasdikrahman
 - tashimi
 - tedyu
 - tengqm
 - tenzen-y
 - TerryHowe
+- terrytangyuan
 - TessaIO
 - therc
+- thisisharrsh
 - thockin
 - thschue
+- tico88612
 - timoreimann
 - timothysc
 - timstoop
@@ -1025,11 +1124,13 @@ members:
 - tnqn
 - tobiasgiese
 - tokt
+- tomasaschan
 - TommyStarK
 - torredil
 - tosi3k
 - tossmilestone
 - towca
+- tpantelis
 - tpepper
 - trasc
 - troy0820
@@ -1039,7 +1140,6 @@ members:
 - tstromberg
 - ttakahashi21
 - tukwila
-- twilight0620
 - ty-dc
 - tzifudzi
 - tzneal
@@ -1064,6 +1164,7 @@ members:
 - Virusuki
 - vishalanarase
 - vishesh92
+- vladikkuzn
 - vladimirvivien
 - voelzmo
 - Volatus
@@ -1072,8 +1173,10 @@ members:
 - wackxu
 - wangyysde
 - wangzhen127
+- wedaly
 - weilaaa
 - weizhouapache
+- wendy-ha18
 - wenjiaswe
 - wespanther
 - willie-yao
@@ -1081,15 +1184,16 @@ members:
 - windsonsea
 - wlan0
 - wlp1153468871
-- wlq1212
 - wojtek-t
 - wongma7
 - woopstar
 - wozniakjan
+- wrkode
 - wwentland
 - wyike
 - wzshiming
 - x13n
+- xcarolan
 - XDRAGON2002
 - xdu31
 - xiang90
@@ -1100,6 +1204,7 @@ members:
 - xinydev
 - xmcqueen
 - xmudrii
+- xrstf
 - XudongLiuHarold
 - Xunzhuo
 - xuzhenglun
@@ -1119,6 +1224,7 @@ members:
 - yibozhuang
 - ykakarap
 - yliaog
+- yongruilin
 - youngnick
 - YoyinZyc
 - yrs147
@@ -1141,10 +1247,13 @@ members:
 - zelenushechka
 - ZeroMagic
 - zetaab
+- zhanggbj
 - zhangxyjlu
 - zhengtianbao
+- zhifei92
 - zhucan
 - Zhuzhenghao
+- zilmarr
 - zioproto
 - ziyi-xie
 - zmerlynn
@@ -1228,7 +1337,9 @@ teams:
     description: Admin access to cloud-provider-gcp repo
     members:
     - aojea
-    - mikedanese
+    - bowei
+    - thockin
+    - wojtek-t
     privacy: closed
     repos:
       cloud-provider-gcp: admin
@@ -1240,7 +1351,6 @@ teams:
     - cici37
     - jpbetz
     - jprzychodzen
-    - mikedanese
     - mskrocki
     - sdmodi
     privacy: closed
@@ -1456,9 +1566,7 @@ teams:
   ingress-nginx-admins:
     description: Admin access to the ingress-nginx repo
     members:
-    - aledbf
-    - bowei
-    - rikatz
+    - Gacko
     - strongjz
     privacy: closed
     repos:
@@ -1466,9 +1574,8 @@ teams:
   ingress-nginx-maintainers:
     description: Write access to the ingress-nginx repo
     members:
-    - aledbf
     - cpanato
-    - rikatz
+    - Gacko
     - strongjz
     - tao12345666333
     privacy: closed
@@ -1503,9 +1610,9 @@ teams:
   kubectl-admins:
     description: Admin access to the kubectl repo
     members:
+    - ardaguclu
     - eddiezane
-    - KnVerey
-    - seans3
+    - mpuckett159
     - soltysh
     privacy: closed
     repos:
@@ -1513,21 +1620,13 @@ teams:
   kubectl-maintainers:
     description: Write access to the kubectl repo
     members:
+    - ardaguclu
     - eddiezane
-    - KnVerey
-    - seans3
+    - mpuckett159
     - soltysh
     privacy: closed
     repos:
       kubectl: write
-  kubernetes-feature-branch-admins:
-    description: Admin access to the kubernetes repo, for maintaining feature branches.
-      Will deprecate when this access is no longer needed.
-    members:
-    - lavalamp
-    privacy: closed
-    repos:
-      kubernetes: admin
   kubernetes-maintainers:
     description: Write access to the kubernetes repo. Follow the process in https://github.com/kubernetes/community/blob/master/community-membership.md
     maintainers:
@@ -1539,16 +1638,9 @@ teams:
     - cheftako
     - dchen1107
     - deads2k
-    - derekwaynecarr
     - dims
-    - feiskyer
-    - ingvagabund
-    - janetkuo
-    - jingxu97
     - jsafrane
-    - k82cn
     - liggitt
-    - ncdc
     - smarterclayton
     - soltysh
     - sttts
@@ -1671,9 +1763,11 @@ teams:
       component-helpers: admin
       controller-manager: admin
       cri-api: admin
+      cri-client: admin
       csi-translation-lib: admin
       dynamic-resource-allocation: admin
       endpointslice: admin
+      externaljwt: admin
       kms: admin
       kube-aggregator: admin
       kube-controller-manager: admin
@@ -1691,14 +1785,13 @@ teams:
       sample-controller: admin
   steering-committee:
     description: Kubernetes Steering Committee
-    maintainers:
-    - mrbobbytables
-    - palnabarun
     members:
+    - aojea
     - BenTheElder
     - justaugustus
     - pacoxu
     - pohly
+    - saschagrunert
     - soltysh
     privacy: closed
     repos:

@@ -1,0 +1,168 @@
+teams:
+  etcd-operator-admins:
+    description: Admin access to etcd-operator repo
+    members:
+    - ahrtr
+    - hakman
+    - jberkus
+    - jmhbnz
+    - justinsb
+    privacy: closed
+    repos:
+      etcd-operator: admin
+  etcd-operator-maintainers:
+    description: Write access to etcd-operator repo
+    members:
+    - ahrtr
+    - hakman
+    - jberkus
+    - jmhbnz
+    - justinsb
+    privacy: closed
+    repos:
+      etcd-operator: write
+  maintainers-auger:
+    description: Granted write access to auger
+    members:
+    - jmhbnz
+    - siyuanfoundation
+    - wenjiaswe
+    privacy: closed
+    repos:
+      auger: admin
+  maintainers-bbolt:
+    description: Granted write access to bbolt
+    members:
+    - ahrtr
+    - ptabor
+    - serathius
+    privacy: closed
+    repos:
+      bbolt: maintain
+  maintainers-discovery:
+    description: discovery.etcd.io maintainers
+    members:
+    - eduartua
+    - idvoretskyi
+    - victortrac
+    privacy: closed
+    repos:
+      discovery.etcd.io: maintain
+      discoveryserver: maintain
+  maintainers-etcd:
+    description: Granted write access to etcd
+    members:
+    - ahrtr
+    - jmhbnz
+    - serathius
+    - spzala
+    - wenjiaswe
+    privacy: closed
+    repos:
+      dbtester: maintain
+      etcd: maintain
+      gofail: maintain
+  maintainers-jetcd:
+    description: Granted write access to jetcd
+    members:
+    - fanminshi
+    - lburgazzoli
+    - vorburger
+    privacy: closed
+    repos:
+      jetcd: maintain
+  maintainers-raft:
+    description: raft maintainers
+    members:
+    - ahrtr
+    - ptabor
+    - serathius
+    - spzala
+    - tbg
+    privacy: closed
+    repos:
+      raft: maintain
+  maintainers-website:
+    description: Granted write access to website
+    members:
+    - ahrtr
+    - chalin
+    - jberkus
+    - jmhbnz
+    - nate-double-u
+    - serathius
+    - spzala
+    - wenjiaswe
+    privacy: closed
+    repos:
+      website: admin
+  maintainers-labs:
+    description: Granted write access to etcdlabs
+    members:
+    - ahrtr
+    - jmhbnz
+    - serathius
+    - spzala
+    - wenjiaswe
+    privacy: closed
+    repos:
+      etcdlabs: admin
+  members:
+    description: ""
+    members:
+    - ArkaSaha30
+    - cenkalti
+    - chaochn47
+    - elbehery
+    - erikgrinaker
+    - fuweid
+    - ghouscht
+    - henrybear327
+    - ivanvc
+    - jmhbnz
+    - lavacat
+    - pav-kv
+    - siyuanfoundation
+    - thedtripp
+    - tjungblu
+    privacy: closed
+    repos:
+      bbolt: triage
+      dbtester: triage
+      etcd: triage
+      gofail: triage
+      raft: triage
+      website: triage
+    teams:
+      reviewers-etcd:
+        description: ""
+        members:
+        - fuweid
+        - ivanvc
+        - jmhbnz
+        - siyuanfoundation
+        privacy: closed
+        repos:
+          auger: triage
+          bbolt: triage
+          dbtester: triage
+          etcd: triage
+          gofail: triage
+          raft: triage
+          website: triage
+  release-etcd:
+    description: Granted permission to release etcd-io/etcd
+    members:
+      - ahrtr
+      - fuweid
+      - ivanvc
+      - jmhbnz
+      - serathius
+      - siyuanfoundation
+      - spzala
+      - wenjiaswe
+    privacy: closed
+    repos:
+      # Permission set to triage during bau activities
+      # During release windows this will be bumped to `maintain`
+      etcd: triage

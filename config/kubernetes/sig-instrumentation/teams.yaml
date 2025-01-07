@@ -4,8 +4,9 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
+    - rexagod
+    - richabanker
     privacy: closed
   sig-instrumentation-approvers:
     description: ""
@@ -16,6 +17,8 @@ teams:
     - ehashman
     - logicalhan
     - RainbowMango
+    - rexagod
+    - richabanker
     - serathius
     privacy: closed
   sig-instrumentation-members:
@@ -34,7 +37,7 @@ teams:
     - pohly
     - RainbowMango
     - rexagod
-    - RichaBanker
+    - richabanker
     - s-urbaniak
     - serathius
     - tariq1890
@@ -47,11 +50,10 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
-    - fpetkovski
     - logicalhan
     - mrueg
     - rexagod
+    - richabanker
     privacy: closed
     repos:
       kube-state-metrics: admin
@@ -59,7 +61,6 @@ teams:
     description: Write access to the kube-state-metrics repo
     members:
     - dgrisonnet
-    - fpetkovski
     - mrueg
     - rexagod
     privacy: closed
@@ -87,6 +88,7 @@ teams:
     description: Admin access to the metrics repo
     members:
     - dgrisonnet
+    - rexagod
     - serathius
     privacy: closed
     repos:
@@ -95,6 +97,7 @@ teams:
     description: Write access to the metrics repo
     members:
     - dgrisonnet
+    - rexagod
     - serathius
     privacy: closed
     repos:

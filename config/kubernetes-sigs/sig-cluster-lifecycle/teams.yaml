@@ -26,6 +26,7 @@ teams:
     - fabriziopandini
     - jackfrancis
     - Jont828
+    - mboersma
     privacy: closed
     repos:
       cluster-api-addon-provider-helm: admin
@@ -35,13 +36,13 @@ teams:
     - fabriziopandini
     - jackfrancis
     - Jont828
+    - mboersma
     privacy: closed
     repos:
       cluster-api-addon-provider-helm: write
   cluster-api-admins:
     description: ""
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - sbueringer
     - vincepri
@@ -51,11 +52,9 @@ teams:
   cluster-api-maintainers:
     description: ""
     members:
-    - CecileRobertMichon
     - chrischdi
     - enxebre
     - fabriziopandini
-    - killianmuldoon
     - sbueringer
     - vincepri
     privacy: closed
@@ -64,12 +63,18 @@ teams:
   cluster-api-ipam-provider-in-cluster-admins:
     description: "admin access to cluster-api-ipam-provider-in-cluster"
     members:
-    - CecileRobertMichon
     - fabriziopandini
     - schrej
     privacy: closed
     repos:
       cluster-api-ipam-provider-in-cluster: admin
+  cluster-api-ipam-provider-in-cluster-maintainers:
+    description: "write access to cluster-api-ipam-provider-in-cluster"
+    members:
+    - mcbenjemaa
+    privacy: closed
+    repos:
+      cluster-api-ipam-provider-in-cluster: write
   cluster-api-operator-admins:
     description: "admin access to cluster-api-operator"
     members:
@@ -77,6 +82,7 @@ teams:
     - damdo
     - Danil-Grigorev
     - Fedosin
+    - furkatgofurov7
     - JoelSpeed
     privacy: closed
     repos:
@@ -89,12 +95,20 @@ teams:
     repos:
       cluster-api-provider-aws: admin
   cluster-api-provider-aws-maintainers:
-    description: write access to cluster-api-provider-aws
+    description: maintain access to cluster-api-provider-aws
     members:
+    - AndiDog 
     - Ankitasw
     - dlipovetsky
+    - nrb
     - richardcase
-    - Skarlso
+    privacy: closed
+    repos:
+      cluster-api-provider-aws: maintain
+  cluster-api-provider-aws-release-team:
+    description: write access to cluster-api-provider-aws. maintainers are implied members of release team.
+    members:
+    - damdo
     privacy: closed
     repos:
       cluster-api-provider-aws: write
@@ -102,8 +116,11 @@ teams:
     description: ""
     members:
     - jackfrancis
+    - Jont828
     - mboersma
+    - nawazkh
     - nojnhuh
+    - willie-yao
     privacy: closed
     repos:
       cluster-api-provider-azure: admin
@@ -111,8 +128,11 @@ teams:
     description: ""
     members:
     - jackfrancis
+    - Jont828
     - mboersma
+    - nawazkh
     - nojnhuh
+    - willie-yao
     privacy: closed
     repos:
       cluster-api-provider-azure: write
@@ -239,30 +259,10 @@ teams:
     privacy: closed
     repos:
       cluster-api-provider-kubevirt: write
-  cluster-api-provider-nested-admins:
-    description: admin access to cluster-api-provider-nested
-    members:
-    - christopherhein
-    - fabriziopandini
-    - Fei-Guo
-    - justinsb
-    - neolit123
-    - timothysc
-    - vincepri
-    privacy: closed
-    repos:
-      cluster-api-provider-nested: admin
-  cluster-api-provider-nested-maintainers:
-    description: write access to cluster-api-provider-nested
-    members:
-    - christopherhein
-    - Fei-Guo
-    privacy: closed
-    repos:
-      cluster-api-provider-nested: write
   cluster-api-provider-openstack-admins:
     description: admin access to cluster-api-provider-openstack
     members:
+    - EmilienM
     - jichenjc
     - lentzi90
     - mdbooth
@@ -274,6 +274,7 @@ teams:
   cluster-api-provider-openstack-maintainers:
     description: write access to cluster-api-provider-openstack
     members:
+    - EmilienM
     - jichenjc
     - lentzi90
     - mdbooth
@@ -308,7 +309,6 @@ teams:
     - chrischdi
     - fabriziopandini
     - gab-satchi
-    - killianmuldoon
     - randomvariable
     - sbueringer
     - srm09
@@ -322,7 +322,6 @@ teams:
     - chrischdi
     - fabriziopandini
     - gab-satchi
-    - killianmuldoon
     - randomvariable
     - sbueringer
     - srm09
@@ -336,40 +335,20 @@ teams:
     # members added in commented lines have a pending membership
     # and will be added back once it is acquired.
     - adilGhaffarDev
-    # - adityabhatia
-    # - akshay196
     - cahillsf
     # - chandankumar4
-    # - Dhairya-Arora01
-    - Fedosin
-    # - mansikulkarni96
-    - mcbenjemaa
-    - nawazkh
-    # - ssuriyan7
-    - SubhasmitaSw
-    # - Sunnatillo
-    - troy0820
-    # - typeid
-    - VibhorChinda
-    - willie-yao
-    - yrs147
+    - jayesh-srivastava
+    - pravarag
+    # - rajankumary2k
+    - SD-13
+    # - serngawy
+    - sivchari
+    - Sunnatillo
+    # - tasdikrahman
+    - tormath1
+    # - varshasuryawanshi
+    - vishalanarase
     privacy: closed
-  etcdadm-admins:
-    description: Admin access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
-    repos:
-      etcdadm: admin
-  etcdadm-maintainers:
-    description: Write access to the etcdadm repo
-    members:
-    - dlipovetsky
-    - justinsb
-    privacy: closed
-    repos:
-      etcdadm: write
   image-builder-admins:
     description: admin access to image-builder
     members:
@@ -392,6 +371,31 @@ teams:
     privacy: closed
     repos:
       image-builder: write
+  karpenter-provider-cluster-api-admins:
+    description: Admin access to the karpenter-provider-cluster-api repo
+    members:
+    - elmiko
+    - fabriziopandini
+    - sbueringer
+    - vincepri
+    privacy: closed
+    repos:
+      karpenter-provider-cluster-api: admin
+  karpenter-provider-cluster-api-maintainers:
+    description: Write access to the karpenter-provider-cluster-api repo
+    members:
+    - chrischdi
+    - elmiko
+    - enxebre
+    - fabriziopandini
+    - mtougeron
+    - mtulio
+    - sbueringer
+    - vincepri
+    - vrabbi
+    privacy: closed
+    repos:
+      karpenter-provider-cluster-api: write
   kubespray-admins:
     description: Admin access to the kubespray repo
     members:
@@ -410,6 +414,7 @@ teams:
     - floryut
     - mzaian
     - oomichi
+    - VannTen
     - yankay
     privacy: closed
     repos:

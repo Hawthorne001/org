@@ -18,8 +18,9 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
+    - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation: admin
@@ -28,8 +29,9 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
+    - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation-tools: admin
@@ -38,17 +40,18 @@ teams:
     members:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
+    - rexagod
+    - richabanker
     privacy: closed
     repos:
       instrumentation-tools: write
   logtools-admins:
     description: Admin access to the logtools repo
     members:
-      - ehashman
       - logicalhan
       - pohly
+      - rexagod
       - serathius
     privacy: closed
     repos:
@@ -56,9 +59,9 @@ teams:
   logtools-maintainers:
     description: Write access to the logtools repo
     members:
-      - ehashman
       - logicalhan
       - pohly
+      - rexagod
       - serathius
     privacy: closed
     repos:

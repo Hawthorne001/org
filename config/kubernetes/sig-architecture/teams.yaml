@@ -41,12 +41,15 @@ teams:
     - mrbobbytables # subproject owner
     members:
     - Atharva-Shinde # 1.28 RT Enhancements Lead
+    - dipesh-rawat # 1.32 Enhancements Shadow
+    - jenshu # 1.32 Enhancements Shadow
     - jeremyrickard # subproject owner
     - johnbelamaric # subproject owner
     - justaugustus # subproject owner
     - kikisdeliveryservice # subproject owner
-    - LappleApple # subproject owner
     - salehsedghpour # 1.30 RT Enhancements Lead
+    - shecodesmagic # 1.32 Enhancements Shadow
+    - tjons # 1.32 Enhancements Lead
     privacy: closed
     teams:
       enhancements-admins:
@@ -58,7 +61,6 @@ teams:
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
         - kikisdeliveryservice # subproject owner
-        - LappleApple # subproject owner
         privacy: closed
         repos:
           enhancements: admin
@@ -71,7 +73,6 @@ teams:
         - johnbelamaric # subproject owner
         - justaugustus # subproject owner
         - kikisdeliveryservice # subproject owner
-        - LappleApple # subproject owner
         previously:
         - features-maintainers
         privacy: closed
@@ -83,6 +84,7 @@ teams:
     - deads2k
     - johnbelamaric
     - jpbetz
+    - soltysh
     - wojtek-t
     privacy: closed
     teams:
@@ -96,9 +98,10 @@ teams:
         - enj           # shadow
         - jeremyrickard # shadow
         - johnbelamaric # approver
-        - jpbetz        # shadow
+        - jpbetz        # approver
         - logicalhan    # shadow
-        - spiffxp       # shadow
+        - richabanker   # shadow
+        - soltysh       # approver
         - tallclair     # shadow
         - wojtek-t      # approver
         privacy: closed

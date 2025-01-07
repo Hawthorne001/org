@@ -55,6 +55,46 @@ teams:
     privacy: closed
     repos:
       cluster-proportional-vertical-autoscaler: write
+  cni-dra-driver-admins:
+    description: Admin access to the cni-dra-driver repo
+    members:
+    - aojea
+    - LionelJouin
+    - MikeZappa87
+    privacy: closed
+    repos:
+      cni-dra-driver: admin
+  cni-dra-driver-maintainers:
+    description: Admin access to the cni-dra-driver epo
+    members:
+    - aojea
+    - LionelJouin
+    - MikeZappa87
+    privacy: closed
+    repos:
+      cni-dra-driver: write
+  gwctl-admins:
+    description: Admin access to the gwctl repo
+    members:
+    - gauravkghildiyal
+    - mlavacca
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      gwctl: admin
+  gwctl-maintainers:
+    description: Write access to the gwctl repo
+    members:
+    - gauravkghildiyal
+    - mlavacca
+    - robscott
+    - shaneutt
+    - youngnick
+    privacy: closed
+    repos:
+      gwctl: write
   ip-masq-agent-admins:
     description: Admin access to the ip-masq-agent repo
     members:
@@ -100,11 +140,29 @@ teams:
     - maintainers-external-dns
     repos:
       external-dns: write
+  ingate-admins:
+    description: Admin access to the ingate repo
+    members:
+    - Gacko
+    - strongjz
+    privacy: closed
+    repos:
+      ingate: admin
+  ingate-maintainers:
+    description: Write access to the ingate repo
+    members:
+    - Gacko
+    - strongjz
+    - tao12345666333
+    privacy: closed
+    repos:
+      ingate: write
   ingress2gateway-admins:
     description: Admin access to the ingress2gateway repo
     members:
     - bowei
     - LiorLieberman
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -114,10 +172,9 @@ teams:
   ingress2gateway-maintainers:
     description: Write access to the ingress2gateway repo
     members:
-    - bowei
     - LiorLieberman
+    - mlavacca
     - robscott
-    - shaneutt
     - youngnick
     privacy: closed
     repos:
@@ -162,10 +219,20 @@ teams:
     privacy: closed
     repos:
       iptables-wrappers: write
+  gateway-api-inference-extension-admins:
+    description: Admin access to gateway-api-inference-extension
+    members:
+    - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
+    - terrytangyuan
+    privacy: closed
+    repos:
+      gateway-api-inference-extension: admin
   gateway-api-admins:
     description: Admin access to the gateway-api repo
     members:
-    - bowei
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -177,7 +244,7 @@ teams:
   gateway-api-maintainers:
     description: Write access to the gateway-api repo
     members:
-    - bowei
+    - mlavacca
     - robscott
     - shaneutt
     - youngnick
@@ -204,14 +271,38 @@ teams:
     privacy: closed
     repos:
       knftables: admin
-  kpng-admins:
-    description: Admin access to the kpng repo
+  kube-network-policies-admins:
+    description: Admin access to the kube-network-policies repo
     members:
-    - mcluseau
+    - aojea
+    - danwinship
     - thockin
     privacy: closed
     repos:
-      kpng: admin
+      kube-network-policies: admin
+  kube-network-policies-maintainers:
+    description: Write access to the kube-network-policies repo
+    members:
+    - aojea
+    - danwinship
+    - thockin
+    privacy: closed
+    repos:
+      kube-network-policies: write
+  multi-network:
+    description: admin access to multi-network repo
+    members:
+    - aojea
+    privacy: closed
+    repos:
+      multi-network: admin
+  multi-network-api:
+    description: admin access to multi-network-api repo
+    members:
+    - aojea
+    privacy: closed
+    repos:
+      multi-network-api: admin
   network-policy-api-admins:
     description: Admin access to the network-policy-api repo
     members:

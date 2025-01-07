@@ -1,6 +1,6 @@
 teams:
-  container-object-storage-interface-api-admins:
-    description: Admin access to container-object-storage-interface-api
+  container-object-storage-interface-admins:
+    description: Admin access to container-object-storage-interface
     members:
     - jsafrane
     - msau42
@@ -8,102 +8,19 @@ teams:
     - xing-yang
     privacy: closed
     repos:
-      container-object-storage-interface-api: admin
-  container-object-storage-interface-api-maintainers:
-    description: Write access to container-object-storage-interface-api
+      container-object-storage-interface: admin
+  container-object-storage-interface-maintainers:
+    description: Write access to container-object-storage-interface
     members:
+    - BlaineEXE
     - jsafrane
     - msau42
     - saad-ali
-    - wlan0
+    - shanduur
     - xing-yang
     privacy: closed
     repos:
-      container-object-storage-interface-api: write
-  container-object-storage-interface-controller-admins:
-    description: Admin access to container-object-storage-interface-controller
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-controller: admin
-  container-object-storage-interface-controller-maintainers:
-    description: Write access to container-object-storage-interface-controller
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-controller: write
-  container-object-storage-interface-csi-adapter-admins:
-    description: Admin access to container-object-storage-interface-csi-adapter
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-csi-adapter: admin
-  container-object-storage-interface-csi-adapter-maintainers:
-    description: Write access to container-object-storage-interface-csi-adapter
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-csi-adapter: write
-  container-object-storage-interface-provisioner-sidecar-admins:
-    description: Admin access to container-object-storage-interface-provisioner-sidecar
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-provisioner-sidecar: admin
-  container-object-storage-interface-provisioner-sidecar-maintainers:
-    description: Write access to container-object-storage-interface-provisioner-sidecar
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-provisioner-sidecar: write
-  container-object-storage-interface-spec-admins:
-    description: Admin access to container-object-storage-interface-spec
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-spec: admin
-  container-object-storage-interface-spec-maintainers:
-    description: Write access to container-object-storage-interface-spec
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wlan0
-    - xing-yang
-    privacy: closed
-    repos:
-      container-object-storage-interface-spec: write
+      container-object-storage-interface: write
   cosi-driver-sample-admins:
     description: Admin access to cosi-driver-sample
     members:
@@ -125,6 +42,74 @@ teams:
     privacy: closed
     repos:
       cosi-driver-sample: write
+  gcp-compute-persistent-disk-csi-driver-admins:
+    description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: admin
+  gcp-compute-persistent-disk-csi-driver-maintainers:
+    description: Write access to the gcp-compute-persistent-disk-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-compute-persistent-disk-csi-driver: write
+  gcp-filestore-csi-driver-admins:
+    description: Admin access to the gcp-filestore-csi-driver repo
+    members:
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - saad-ali
+    - saikat-royc
+    - songjiaxun
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: admin
+  gcp-filestore-csi-driver-maintainers:
+    description: Write access to the gcp-filestore-csi-driver repo
+    members:
+    - amacaskill
+    - dannawang0221
+    - hime
+    - leiyiz
+    - mattcary
+    - msau42
+    - pwschuurman
+    - saad-ali
+    - saikat-royc
+    - sneha-at
+    - songjiaxun
+    - sunnylovestiramisu
+    - tyuchn
+    privacy: closed
+    repos:
+      gcp-filestore-csi-driver: write      
   gluster-block-external-provisioner-admins:
     description: Admin access to gluster-block-external-provisioner
     members:
@@ -168,3 +153,51 @@ teams:
     privacy: closed
     repos:
       nfs-ganesha-server-and-external-provisioner: admin
+  sig-storage-lib-external-provisioner-admins:
+    description: Admin access to the sig-storage-lib-external-provisioner repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - wongma7
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: admin
+  sig-storage-lib-external-provisioner-maintainers:
+    description: Write access to the sig-storage-lib-external-provisioner repo
+    members:
+    - jsafrane
+    - msau42
+    - saad-ali
+    - wongma7
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-lib-external-provisioner: write
+  sig-storage-local-static-provisioner-admins:
+    description: Admin access to the sig-storage-local-static-provisioner repo
+    members:
+    - andyzhangx
+    - cofyc
+    - jsafrane
+    - mauriciopoppe
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: admin
+  sig-storage-local-static-provisioner-maintainers:
+    description: Write access to the sig-storage-local-static-provisioner repo
+    members:
+    - andyzhangx
+    - cofyc
+    - jsafrane
+    - mauriciopoppe
+    - msau42
+    - saad-ali
+    - xing-yang
+    privacy: closed
+    repos:
+      sig-storage-local-static-provisioner: write

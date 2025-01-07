@@ -14,19 +14,23 @@ description: Org for Kubernetes SIG-related work
 has_organization_projects: true
 has_repository_projects: true
 members:
+- 0ekk
 - 196Ikuchil
 - "249043822"
 - 92nqb
 - a7i
 - aaroniscode
+- AbdullahAlShaad
 - abhay-krishna
 - abhiraut
 - Abirdcfly
+- abursavich
 - achernevskii
 - adelina-t
 - adikul30
 - adilGhaffarDev
 - adityabhatia
+- adowair
 - adriananeci
 - adrianchiris
 - adrianludwin
@@ -35,11 +39,13 @@ members:
 - agradouski
 - ahg-g
 - ahmetb
+- ahrtr
 - airbornepony
 - aj11anuj
 - akankshakumari393
 - akankshapanse
 - AkihiroSuda
+- akram
 - akutz
 - aladewberry
 - AlbeeSo
@@ -92,19 +98,23 @@ members:
 - AverageMarcus
 - aveshagarwal
 - AvineshTripathi
+- azaynul10
 - B1F030
 - barney-s
 - bart0sh
 - bells17
+- benluddy
 - benmoss
 - BenTheElder
 - bertinatto
 - bg-chun
 - bgrant0607
+- Bharadwajshivam28
 - binacs
 - bishal7679
 - BlaineEXE
 - BobyMCbobs
+- bouaouda-achraf
 - bowei
 - bozzo
 - bradmccoydev
@@ -112,6 +122,8 @@ members:
 - brancz
 - brianpursley
 - bridgetkromhout
+- bryan-cox
+- bryantbiggs
 - Bryce-Soghigian
 - bswartz
 - bugoverdose
@@ -120,7 +132,7 @@ members:
 - bzub
 - caesarxuchao
 - cahillsf
-- cailynse
+- cailyn-codes
 - camilamacedo86
 - campoy
 - candita
@@ -135,11 +147,13 @@ members:
 - celestehorgan
 - chadswen
 - champtar
+- chandankumar4
 - chansuke
 - chaodaiG
 - charles-chenzz
 - chases2
 - cheftako
+- chen-keinan
 - chendave
 - chengxiangdong
 - chetak123
@@ -159,15 +173,19 @@ members:
 - CIPHERTron
 - cjwagner
 - claudiubelu
+- cloudmelon
 - cmurphy
 - cnmcavoy
 - codefromthecrypt
 - coderanger
 - cofyc
+- ComradeProgrammer
+- comtalyst
 - ConnorJC3
 - cooldracula
 - cpanato
 - cprivitere
+- craigbox
 - craiglpeters
 - cristicalin
 - csantanapr
@@ -183,6 +201,7 @@ members:
 - danielvegamyhre
 - DanielXiao
 - Danil-Grigorev
+- danilo-gemoli
 - dannawang0221
 - danwinship
 - dashpole
@@ -200,9 +219,11 @@ members:
 - deitch
 - denkensk
 - derekwaynecarr
+- deszhou
 - detiber
 - devigned
 - dgrisonnet
+- dgrove-oss
 - dharaneeshvrd
 - dharmjit
 - dhellmann
@@ -210,6 +231,7 @@ members:
 - DimpleRajaVamsi
 - dims
 - dipankardas011
+- dipesh-rawat
 - DiptoChakrabarty
 - DirectXMan12
 - displague
@@ -234,21 +256,26 @@ members:
 - dtzar
 - dulek
 - Dyanngg
+- EandrewJones
 - easeway
 - eddiezane
 - eddycharly
 - edreed
+- Edwinhr716
 - ehashman
 - Eileen-Yu
 - electrocucaracha
 - elezar
+- ElijahQuinones
 - ellistarn
 - elmiko
+- embik
 - EmilienM
 - endocrimes
 - engedaam
 - enj
 - enxebre
+- ericsmalling
 - erikgb
 - ErikJiang
 - esigo
@@ -258,10 +285,12 @@ members:
 - fabi200123
 - fabriziopandini
 - faiq
+- fanhaouu
 - Fedosin
 - Fei-Guo
 - feiskyer
 - feloy
+- fengshunli
 - ffromani
 - FillZpp
 - Fish-pro
@@ -281,6 +310,8 @@ members:
 - fykaa
 - g-gaston
 - gab-satchi
+- gabesaba
+- Gacko
 - Garrybest
 - gauravkghildiyal
 - Gauravpadam
@@ -295,14 +326,19 @@ members:
 - gnufied
 - gohilankit
 - gomesjason
+- googs1025
 - gottwald
+- gryf
+- guicassolato
 - guineveresaenger
+- gujingit
 - gyohuangxin
 - gyuho
 - hackeramitkumar
 - hailkomputer
 - haircommander
 - hakman
+- hakuna-matatah
 - hangscer8
 - hanlins
 - hannibalhuang
@@ -314,14 +350,18 @@ members:
 - helen-frank
 - heyste
 - hh
+- highpon
 - Hii-Arpit
+- hime
 - HirazawaUi
+- hongkailiu
 - howardjohn
 - hrak
 - Huang-Wei
 - hughdanliu
 - humblec
 - huntergregory
+- huww98
 - huxcrux
 - hwdef
 - hzxuzhonghu
@@ -330,12 +370,15 @@ members:
 - idealhack
 - idvoretskyi
 - imnmo
+- inductor
 - ingvagabund
 - inteon
 - intUnderflow
 - invidian
 - ipochi
 - irvifa
+- IrvingMg
+- ivanvc
 - ixdy
 - jackfrancis
 - jackielii
@@ -358,7 +401,9 @@ members:
 - jdumars
 - jeefy
 - Jefftree
+- jefftrojan
 - jeffwan
+- jenshu
 - jeremyje
 - JeremyOT
 - jeremyrickard
@@ -367,11 +412,13 @@ members:
 - JiaoDean
 - Jiawei0227
 - jichenjc
+- jihoon-seo
 - jimangel
 - JimBugwadia
 - jimmidyson
 - jingxu97
 - jjacobelli
+- jjk-g
 - jkh52
 - jklaw90
 - jlamillan
@@ -386,6 +433,7 @@ members:
 - JoelSpeed
 - johananl
 - johannesfrey
+- johnbelamaric
 - johngmyers
 - jonathan-innis
 - jongwooo
@@ -409,10 +457,12 @@ members:
 - kad
 - kaisoz
 - kannon92
+- karenhchu
 - karlkfi
 - Karthik-K-N
 - Kasambx
 - kaslin
+- katcosgrove
 - Katharine
 - Kavinjsir
 - kavyashree-r
@@ -425,6 +475,7 @@ members:
 - kevindelgado
 - kflynn
 - kfox1111
+- kfswain
 - khareyash05
 - khenidak
 - khoang98
@@ -436,11 +487,13 @@ members:
 - KKtheGhost
 - klueska
 - KlwntSingh
+- kmala
 - kmova
 - knabben
 - knee-berts
 - knelasevero
 - knight42
+- knqyf263
 - KnVerey
 - koba1t
 - koksay
@@ -449,13 +502,17 @@ members:
 - krol3
 - krzyzacy
 - kundan2707
+- KunWuLuan
 - kvaps
 - kwiesmueller
+- kwilczynski
 - lachie83
 - landreasyan
 - laozc
 - lauralorenz
+- LaurentGoderre
 - lavalamp
+- lavishpal
 - laxmikantbpandhare
 - leakingtapan
 - leiyiz
@@ -466,10 +523,13 @@ members:
 - liggitt
 - LingyanYin
 - linki
+- LionelJouin
 - LiorLieberman
 - lipingxue
 - listx
+- liu-cong
 - liupeng0518
+- liurupeng
 - lizhuqi
 - lobziik
 - LochanRn
@@ -477,6 +537,7 @@ members:
 - longwuyuan
 - lou-lan
 - louiscryan
+- lowang-bh
 - lubronzhan
 - luthermonson
 - luxas
@@ -486,6 +547,7 @@ members:
 - m00nf1sh
 - maciaszczykm
 - maciekpytel
+- macsko
 - Madhan-SWE
 - Madhur97
 - maelvls
@@ -507,6 +569,8 @@ members:
 - mauriciopoppe
 - MaxRink
 - MaysaMacedo
+- mbianchidev
+- mbobrovskyi
 - mboersma
 - mboukhalfa
 - mcbenjemaa
@@ -524,9 +588,11 @@ members:
 - michaelgugino
 - michelle192837
 - Michelle951
+- michellengnx
 - mikedanese
 - mikemorris
 - mikeshng
+- MikeZappa87
 - mimowo
 - misterikkit
 - mjlshen
@@ -556,8 +622,11 @@ members:
 - mrunalp
 - msau42
 - mskanth972
+- mszadkow
+- mtardy
 - mtaufen
 - mtougeron
+- mtulio
 - muddapu
 - mukhoakash
 - munnerz
@@ -566,6 +635,7 @@ members:
 - MushuEE
 - mwielgus
 - my-git9
+- mykysha
 - mylesagray
 - mzaian
 - nak3
@@ -601,10 +671,12 @@ members:
 - nrb
 - nunnatsa
 - odinuge
+- Okabe-Junya
 - olemarkus
 - olivercodes
 - oliviassss
 - olivierlemasle
+- omerap12
 - onlydole
 - oomichi
 - oprinmarius
@@ -626,6 +698,7 @@ members:
 - pjh
 - pkprzekwas
 - Pluies
+- pmalek
 - pmorie
 - pohly
 - poonam-lamba
@@ -635,6 +708,9 @@ members:
 - prankulmahajan
 - prateekgogia
 - pravarag
+- prianna
+- priyaaakansha
+- Prucek
 - psschwei
 - puerco
 - puja108
@@ -665,6 +741,8 @@ members:
 - ravisantoshgudimetla
 - rayandas
 - rayowang
+- raywainman
+- rdalbuquerque
 - rdpsin
 - reetasingh
 - relyt0925
@@ -672,8 +750,9 @@ members:
 - reylejano
 - rficcaglia
 - rhatdan
-- Riaankl
-- Richabanker
+- riaankleinhans
+- ricardoapl
+- richabanker
 - richackard
 - richardcase
 - rifelpet
@@ -681,6 +760,7 @@ members:
 - rikatz
 - RinkiyaKeDad
 - ritazh
+- ritikaguptams
 - rjbez17
 - rjsadow
 - rlenferink
@@ -690,21 +770,28 @@ members:
 - rolfedh
 - RomanBednar
 - roycaihw
+- rschalo
 - rsmitty
 - rtsp
 - rvanderp3
+- ryanzhang-oss
+- rytswd
 - s-kawamura-w664
 - s-urbaniak
 - saad-ali
 - sadath-12
 - saikat-royc
 - sairameshv
+- sajibAdhi
 - Sajiyah-Salat
+- salasberryfin
 - salaxander
 - salehsedghpour
 - sallyom
 - saltbo
+- sameshai
 - samos123
+- samuelkarp
 - sanchezl
 - sanchita-07
 - SandeepPissay
@@ -721,6 +808,7 @@ members:
 - satyampsoni
 - saurav-agarwalla
 - savitharaghunathan
+- sawsa307
 - sayantani11
 - sbs2001
 - sbueringer
@@ -733,29 +821,37 @@ members:
 - seans3
 - seanschneeweiss
 - seanzatzdev-amazon
+- seifrajhi
 - serathius
 - serbrech
 - SergeyKanzhelev
+- serngawy
 - sftim
 - Sh4d1
 - shalini-b
 - shanduur
 - shaneutt
 - shatoboar
+- shecodesmagic
+- shijinye
 - ShivamTyagi12345
-- shivanshu1333
 - shraddhabang
 - shu-mutou
 - ShwethaKumbla
 - shyamjvs
 - shyamradhakrishnan
+- sipriyaa
+- sivchari
 - Skarlso
 - skitt
 - skriss
 - sladyn98
 - smarterclayton
 - smg247
+- smileusd
+- sn3hay
 - Sneha-at
+- snehachhabria
 - sohankunkerkar
 - soltysh
 - SomtochiAma
@@ -774,6 +870,7 @@ members:
 - starpit
 - stealthybox
 - stephenfin
+- steve-hardman
 - stevehipwell
 - stevekuznetsov
 - stmcginnis
@@ -784,11 +881,13 @@ members:
 - SubhasmitaSw
 - sudermanjr
 - sunjayBhatia
+- Sunnatillo
 - sunnylovestiramisu
 - sunpa93
 - swatisehgal
 - szuecs
 - t-inu
+- t-mialve
 - tabbysable
 - Tal-or
 - tallaxes
@@ -798,13 +897,16 @@ members:
 - tanjunchen
 - tao12345666333
 - tariq1890
+- tasdikrahman
 - tashimi
 - tengqm
 - tenzen-y
 - TerryHowe
+- terrytangyuan
 - TessaIO
 - thebsdbox
 - thockin
+- tico88612
 - timoreimann
 - timothysc
 - timwangmusic
@@ -813,18 +915,18 @@ members:
 - tnqn
 - tobiasgiese
 - tokt
+- tomasaschan
 - tormath1
 - torredil
+- tpantelis
 - tpepper
 - trasc
 - troy0820
 - truongnh1992
 - tssurya
-- tu1h
 - tukwila
 - tuminoid
 - tuxtof
-- twilight0620
 - tydra-wang
 - tyuchn
 - tzifudzi
@@ -838,12 +940,14 @@ members:
 - varshaprasad96
 - Verolop
 - VibhorChinda
+- vignesh-goutham
 - vikash-8090-Yadav
 - Vincent056
 - vincepri
 - vinli-cn
 - vishalanarase
 - vishesh92
+- vladikkuzn
 - vladimirvivien
 - voor
 - vrabbi
@@ -852,6 +956,8 @@ members:
 - weilaaa
 - weiling61
 - weizhouapache
+- wendy-ha18
+- wenjiaswe
 - wentao-zh
 - willie-yao
 - wilsonwu
@@ -861,10 +967,13 @@ members:
 - wondywang
 - wongma7
 - woopstar
+- wrkode
+- wweiwei-li
 - wwentland
 - wyike
 - wzshiming
 - x13n
+- xcarolan
 - XDRAGON2002
 - xdu31
 - xichengliudui
@@ -873,6 +982,8 @@ members:
 - xmcqueen
 - xmudrii
 - xrmzju
+- xrstf
+- xtineskim
 - Xunzhuo
 - yagonobre
 - yanggangtony
@@ -890,6 +1001,7 @@ members:
 - ykakarap
 - yliaog
 - yonatankahana
+- yongruilin
 - youngnick
 - YoyinZyc
 - yrs147
@@ -903,12 +1015,14 @@ members:
 - yuwenma
 - yyy1000
 - z1cheng
+- zac-nixon
 - zacharysarah
 - zelenushechka
 - ZeroMagic
 - zhanggbj
 - zhangxyjlu
 - zhengtianbao
+- zhifei92
 - zhucan
 - Zhuzhenghao
 - zimmertr
@@ -980,65 +1094,6 @@ teams:
     privacy: closed
     repos:
       dashboard-metrics-scraper: write
-  gcp-compute-persistent-disk-csi-driver-admins:
-    description: Admin access to the gcp-compute-persistent-disk-csi-driver repo
-    members:
-    - amacaskill
-    - leiyiz
-    - mattcary
-    - msau42
-    - pwschuurman
-    - saad-ali
-    - saikat-royc
-    - songjiaxun
-    - tyuchn
-    privacy: closed
-    repos:
-      gcp-compute-persistent-disk-csi-driver: admin
-  gcp-compute-persistent-disk-csi-driver-maintainers:
-    description: Write access to the gcp-compute-persistent-disk-csi-driver repo
-    members:
-    - amacaskill
-    - leiyiz
-    - mattcary
-    - msau42
-    - saad-ali
-    - saikat-royc
-    - songjiaxun
-    - sunnylovestiramisu
-    - tyuchn
-    privacy: closed
-    repos:
-      gcp-compute-persistent-disk-csi-driver: write
-  gcp-filestore-csi-driver-admins:
-    description: Admin access to the gcp-filestore-csi-driver repo
-    members:
-    - leiyiz
-    - mattcary
-    - msau42
-    - saad-ali
-    - saikat-royc
-    - songjiaxun
-    - tyuchn
-    privacy: closed
-    repos:
-      gcp-filestore-csi-driver: admin
-  gcp-filestore-csi-driver-maintainers:
-    description: Write access to the gcp-filestore-csi-driver repo
-    members:
-    - amacaskill
-    - leiyiz
-    - mattcary
-    - msau42
-    - pwschuurman
-    - saad-ali
-    - saikat-royc
-    - songjiaxun
-    - sunnylovestiramisu
-    - tyuchn
-    privacy: closed
-    repos:
-      gcp-filestore-csi-driver: write
   kubernetes/sig-apps:
     description: Parent team for all SIG Apps subteams (approvers, reviewers, admins)
     members:
@@ -1075,51 +1130,3 @@ teams:
     privacy: closed
     repos:
       node-feature-discovery: write
-  sig-storage-lib-external-provisioner-admins:
-    description: Admin access to the sig-storage-lib-external-provisioner repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wongma7
-    - xing-yang
-    privacy: closed
-    repos:
-      sig-storage-lib-external-provisioner: admin
-  sig-storage-lib-external-provisioner-maintainers:
-    description: Write access to the sig-storage-lib-external-provisioner repo
-    members:
-    - jsafrane
-    - msau42
-    - saad-ali
-    - wongma7
-    - xing-yang
-    privacy: closed
-    repos:
-      sig-storage-lib-external-provisioner: write
-  sig-storage-local-static-provisioner-admins:
-    description: Admin access to the sig-storage-local-static-provisioner repo
-    members:
-    - andyzhangx
-    - cofyc
-    - jsafrane
-    - mauriciopoppe
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      sig-storage-local-static-provisioner: admin
-  sig-storage-local-static-provisioner-maintainers:
-    description: Write access to the sig-storage-local-static-provisioner repo
-    members:
-    - andyzhangx
-    - cofyc
-    - jsafrane
-    - mauriciopoppe
-    - msau42
-    - saad-ali
-    - xing-yang
-    privacy: closed
-    repos:
-      sig-storage-local-static-provisioner: write

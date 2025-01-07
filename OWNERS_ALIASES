@@ -3,6 +3,7 @@ aliases:
     - deads2k
     - fedebongio
     - jpbetz
+    - sttts
   sig-apps-leads:
     - janetkuo
     - kow3ns
@@ -19,20 +20,17 @@ aliases:
     - ritazh
   sig-autoscaling-leads:
     - gjtempleton
-    - mwielgus
+    - maciekpytel
   sig-cli-leads:
-    - KnVerey
+    - ardaguclu
     - eddiezane
-    - natasha41575
+    - mpuckett159
     - soltysh
   sig-cloud-provider-leads:
-    - andrewsykim
     - bridgetkromhout
     - cheftako
     - elmiko
-    - nckturner
   sig-cluster-lifecycle-leads:
-    - CecileRobertMichon
     - fabriziopandini
     - justinsb
     - neolit123
@@ -44,9 +42,11 @@ aliases:
     - palnabarun
   sig-docs-leads:
     - divya-mohan0209
+    - katcosgrove
     - natalisucks
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - tengqm
   sig-etcd-leads:
@@ -57,16 +57,18 @@ aliases:
   sig-instrumentation-leads:
     - dashpole
     - dgrisonnet
-    - ehashman
     - logicalhan
+    - rexagod
+    - richabanker
   sig-k8s-infra-leads:
     - BenTheElder
     - ameukam
     - dims
     - upodroid
+    - xmudrii
   sig-multicluster-leads:
     - jeremyot
-    - pmorie
+    - skitt
   sig-network-leads:
     - aojea
     - danwinship
@@ -78,6 +80,7 @@ aliases:
     - dchen1107
     - derekwaynecarr
     - mrunalp
+    - haircommander
   sig-release-leads:
     - Verolop
     - cpanato
@@ -124,7 +127,7 @@ aliases:
     - apelisse
     - kwiesmueller
   wg-batch-leads:
-    - alculquicondor
+    - kannon92
     - mwielgus
     - soltysh
     - swatisehgal
@@ -142,6 +145,11 @@ aliases:
   wg-policy-leads:
     - JimBugwadia
     - rficcaglia
+  wg-serving-leads:
+    - ArangoGutierrez
+    - Jeffwan
+    - SergeyKanzhelev
+    - terrytangyuan
   wg-structured-logging-leads:
     - pohly
     - serathius
@@ -161,12 +169,12 @@ aliases:
     - ritazh
     - tabbysable
   committee-steering:
+    - aojea
     - BenTheElder
     - justaugustus
-    - mrbobbytables
     - pacoxu
-    - palnabarun
     - pohly
+    - saschagrunert
     - soltysh
 ## BEGIN CUSTOM CONTENT
   provider-aws:
@@ -189,4 +197,8 @@ aliases:
   provider-vmware:
     - cantbewong
     - frapposelli
+  sig-release-subproject-leads:
+    - gracenng
+    - katcosgrove
+    - xmudrii
 ## END CUSTOM CONTENT

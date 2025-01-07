@@ -1,18 +1,4 @@
 teams:
-  build-admins:
-    description: Kubernetes Build Admins are the current set of Googlers with
-      access to publish packages (debs/rpms) on behalf of the Kubernetes
-      project. This team is a notification-only group, which includes the SIG
-      Release Chairs/TLs for continuity.
-    members:
-    - BenjaminKazemi
-    - cpanato
-    - justaugustus
-    - MushuEE
-    - puerco
-    - saschagrunert
-    - spiffxp
-    privacy: closed
   milestone-maintainers:
     description: Contributors who can use `/milestone` or `/status` commands on
       issues/PRs and have triage access to the kubernetes/enhancements repo
@@ -25,15 +11,16 @@ teams:
     - ahg-g # Scheduling
     - alculquicondor # Scheduling
     - ameukam # Release Manager Associate / K8s Infra
-    - andrewsykim # Cloud Provider
     - aojea # Testing / Network
     - aravindhp # Windows
+    - ardaguclu # CLI
     - BenTheElder # Testing / K8s Infra
     - bgrant0607 # Architecture
     - brancz # Instrumentation
     - bridgetkromhout # Cloud Provider
     - cantbewong # VMware
     - caseydavenport # Network
+    - chanieljdan # 1.32 Docs Lead
     - cheftako # Cloud Provider
     - cici37 # Release Manager
     - claudiubelu # Windows
@@ -47,7 +34,8 @@ teams:
     - derekwaynecarr # Architecture / Node
     - dgrisonnet # Instrumentation
     - dims # Architecture / K8s Infra
-    - drewhagen # 1.30 Docs Lead
+    - dipesh-rawat # 1.32 Enhancements Shadow
+    - drewhagen # 1.32 Release Signal Lead
     - eddiezane # CLI
     - ehashman # Instrumentation
     - elmiko # Cloud Provider
@@ -56,17 +44,19 @@ teams:
     - feiskyer # Azure
     - floreks # UI
     - frapposelli # VMware
-    - fsmunoz # 1.30 RT Lead Shadow
+    - fsmunoz # 1.32 Release Lead
     - gjtempleton # Autoscaling
     - gracenng # Release Manager Associate / 1.30 RT EA
+    - haircommander # Node
     - Huang-Wei # Scheduling
     - janetkuo # Apps
     - jayunit100 # Windows
     - jberkus # Release
     - jbpratt # Testing
     - jdumars # Architecture / PM
+    - jenshu # 1.32 Enhancements Shadow
     - jeremyrickard # Release
-    - jimangel # Docs / Release Manager Associate
+    - jimangel # Docs / Release Manager Associate / 1.32 Release Branch Manager
     - johnbelamaric # Architecture
     - jpbetz # API Machinery
     - jrsapi # Release Manager Associate
@@ -75,10 +65,9 @@ teams:
     - justaugustus # Release
     - justinsb # AWS / Cluster Lifecycle
     - k8s-release-robot # Release
-    - katcosgrove # v1.30 RT Lead
-    - kcmartin # 1.30 Comms Lead
+    - kannon92 # wg-batch organizer
+    - katcosgrove # v1.32 EA
     - khenidak # Azure
-    - KnVerey # CLI
     - kow3ns # Apps
     - lavalamp # API Machinery
     - liggitt # Auth / Release
@@ -86,54 +75,58 @@ teams:
     - logicalhan # Instrumentation
     - luxas # Cluster Lifecycle
     - maciaszczykm # UI
+    - maciekpytel # Autoscaling
     - marosset # Windows
-    - MaryamTavakkoli # 1.30 Release Signal Shadow
+    - mbianchidev # 1.32 Comms Lead
     - mborsz # Scalability
-    - mehabhalodiya # 1.29 Lead Shadow
     - michelle192837 # Testing
+    - mickeyboxell # 1.32 Release Manager Shadow
     - mikedanese # Auth
     - mikezappa87 # Network
     - mm4tt # Scalability
+    - mpuckett159 # CLI
     - mrunalp # Node
     - msau42 # Storage
-    - mwielgus # Autoscaling
-    - natasha41575 # CLI
-    - nckturner # AWS
-    - neoaggelos # 1.30 RT Lead Shadow
     - neolit123 # Cluster Lifecycle
-    - pacoxu # Cluster Lifecycle / 1.30 Release Signal Lead
+    - npolshakova # 1.32 Release Lead Shadow
+    - pacoxu # Cluster Lifecycle
     - pmorie # Multicluster
+    - pohly # SIG Testing, Instrumentation, Node
     - puerco # Release Manager
-    - pwittrock # CLI
     - quinton-hoole # Multicluster
     - RainbowMango # Instrumentation
-    - ramrodo # Release Manager Associate / 1.30 RT Lead Shadow
-    - rashansmith # 1.30 Release Notes Lead
+    - rexagod # Instrumentation
+    - richabanker # Instrumentation
     - ritazh # Auth
     - saad-ali # Storage
     - salaxander # Release Manager Associate / 1.29 RT EA
-    - salehsedghpour # 1.30 Enhancements Lead
-    - sanchita-07 # 1.30 RT Lead Shadow
+    - salehsedghpour # 1.32 Release Lead Shadow
     - saschagrunert # Release
     - SataQiu # Cluster Lifecycle
+    - satyampsoni # 1.32 Release Notes Lead
     - serathius # Instrumentation
     - SergeyKanzhelev # Node
     - shaneutt # Network
+    - shecodesmagic # 1.32 Enhancements Shadow
     - shu-mutou # UI
     - shyamjvs # Scalability
     - soltysh # CLI
     - spzala # IBM Cloud
+    - sreeram-venkitesh # 1.32 Release Lead Shadow
+    - sttts # API Machinery
     - tallclair # Auth
     - tashimi # Usability
     - thockin # Network
     - timothysc # Cluster Lifecycle / Testing
+    - tjons # 1.32 Enhancements Lead
     - upodroid # K8s Infra
     - Verolop # Release Manager
-    - Vyom-Yadav # 1.29 CI Signal Lead
+    - Vyom-Yadav # 1.32 Release Lead Shadow
+    - wendy-ha18 # 1.32 Release Signal Shadow
     - wojtek-t # Scalability
     - xing-yang # Storage
     - xmcqueen # Testing
-    - xmudrii # Release Manager
+    - xmudrii # Release Manager / K8s Infra
     privacy: closed
     previously:
     - kubernetes-milestone-maintainers
@@ -246,10 +239,12 @@ teams:
         - cpanato # subproject owner / Release Manager
         - gracenng # Release Manager Associate
         - jeremyrickard # subproject owner / Release Manager
-        - jimangel # Release Manager Associate
+        - jimangel # Release Manager Associate / 1.32 Release Manager
         - jrsapi # Release Manager Associate
         - justaugustus # subproject owner / Release Manager
         - marosset # Release Manager Associate
+        - mehabhalodiya # Release Manager Associate
+        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Release Manager
         - ramrodo # Release Manager Associate
         - salaxander # Release Manager Associate
@@ -291,27 +286,25 @@ teams:
         - palnabarun # subproject owner (1.21 RT Lead)
         - Priyankasaggu11929 # subproject owner (1.29 RT Lead)
         members:
-        - AnaMMedina21 # 1.30 Enhancements Shadow
         - cpanato # subproject owner / Technical Lead
+        - dipesh-rawat # 1.32 Enhancements Shadow
+        - fsmunoz # 1.32 Release Lead
         - gracenng # subproject owner (1.28 RT Lead)
         - jameslaverack # subproject owner (1.24 RT Lead)
+        - jenshu # 1.32 Enhancements Shadow
         - jeremyrickard # subproject owner / Technical Lead
-        - jimangel # 1.29 RT Branch Manager
+        - jimangel # 1.32 RT Branch Manager
         - justaugustus # subproject owner / Chair
-        - katcosgrove # 1.30 RT Lead
+        - katcosgrove # 1.30 Lead / 1.32 EA
         - leonardpahlke # subproject owner (1.26 RT Lead)
-        - marosset # 1.29 RT Branch Manager Shadow
-        - meganwolf0 # 1.30 Enhancements Shadow
-        - mickeyboxell # 1.30 Enhancements Shadow
-        - pnbrown # 1.30 Enhancements Shadow
+        - mickeyboxell # 1.32 Release Manager Shadow
         - puerco # subproject owner / Technical Lead
         - reylejano # subproject owner (1.23 RT Lead)
         - salaxander # subproject owner (1.27 RT Lead)
-        - salehsedghpour # 1.30 Enhancements Lead
         - saschagrunert # subproject owner / Chair
         - savitharaghunathan # subproject owner (1.22 RT Lead)
-        - sreeram-venkitesh # 1.30 Enhancements Shadow
-        - tjons # 1.30 Enhancements Shadow
+        - shecodesmagic # 1.32 Enhancements Shadow
+        - tjons # 1.32 Enhancements Lead
         - Verolop # Release Manager
         - xmudrii # Release Manager
         privacy: closed
@@ -320,53 +313,52 @@ teams:
             description: Members of the Release Signal team for the current release
               cycle.
             members:
-            - MaryamTavakkoli # 1.30 CI Signal Shadow
-            - moficodes # 1.30 CI Signal Shadow
-            - Namanl2001 # 1.30 CI Signal Shadow
-            - pacoxu # 1.30 CI Signal Lead
-            - SubhasmitaSw # 1.30 CI Signal Shadow
-            - Vyom-Yadav # 1.30 CI Signal Co-Lead
-            - zelenushechka # 1.30 CI Signal Shadow
+            - drewhagen # 1.32 Release Signal Lead
+            - knabben # 1.32 Release Signal Shadow
+            - SimonBaeumer # 1.32 Release Signal Shadow
+            - tico88612 # 1.32 Release Signal Shadow
+            - Vyom-Yadav # 1.32 Release Lead Shadow + Release Signal Temp
+            - wendy-ha18 # 1.32 Release Signal Shadow
             privacy: closed
           release-team-docs:
             description: Members of the Docs team for the current release cycle.
             members:
-            - celestehorgan # 1.30 Docs Shadow
-            - chanieljdan # 1.30 Docs Shadow
-            - drewhagen # 1.30 Docs Lead
-            - Princesso # 1.30 Docs Shadow
-            - Vyom-Yadav # 1.30 Docs Shadow
+            - AnshumanTripathi # 1.32 Docs Shadow
+            - chanieljdan # 1.32 Docs Lead
+            - hacktivist123 # 1.32 Docs Shadow
+            - michellengnx # 1.32 Docs Shadow
+            - rdalbuquerque # 1.32 Docs Shadow
+            - spurin # 1.32 Docs Shadow
             privacy: closed
           release-team-comms:
             description: Members of the Comms team for the current release cycle.
             members:
-            - a-mccarthy # 1.30 Comms Shadow
-            - checksumz # 1.30 Comms Shadow
-            - fkautz # 1.30 Comms Shadow
-            - kcmartin # 1.30 Comms Lead
-            - natalisucks # 1.30 Comms Shadow
+            - edithturn # 1.32 Comms Shadow
+            - mbianchidev # 1.32 Comms Lead
+            - rashansmith # 1.32 Comms Shadow
+            - rytswd # 1.32 Comms Shadow
+            - wrkode # 1.32 Comms Shadow
             privacy: closed
           release-team-enhancements:
             description: Members of the Enhancments team for the current release
               cycle.
             members:
-            - AnaMMedina21 # 1.30 Enhancements Shadow
-            - meganwolf0 # 1.30 Enhancements Shadow
-            - mickeyboxell # 1.30 Enhancements Shadow
-            - pnbrown # 1.30 Enhancements Shadow
-            - salehsedghpour # 1.30 Enhancements Lead
-            - sreeram-venkitesh # 1.30 Enhancements Shadow
-            - tjons # 1.30 Enhancements Shadow
+            - dipesh-rawat # 1.32 Enhancements Shadow
+            - jenshu # 1.32 Enhancements Shadow
+            - shecodesmagic # 1.32 Enhancements Shadow
+            - tjons # 1.32 Enhancements Lead
             privacy: closed
           release-team-release-notes:
             description: Members of the Release Notes team for the current release
               cycle.
             members:
-            - fykaa # 1.30 Release Notes Shadow
-            - npolshakova # 1.30 Release Notes Shadow
-            - OrlinVasilev # 1.30 Release Notes Shadow
-            - rashansmith # 1.30 Release Notes Lead
-            - satyampsoni # 1.30 Release Notes Shadow
+            - cloudmelon # 1.32 Release Notes Shadow
+            - jefftrojan # 1.32 Release Notes Shadow
+            - karenhchu #1.32 Release Notes Shadow
+            - lavishpal # 1.32 Release Notes Shadow
+            - rayandas # 1.32 Release Notes Shadow
+            - satyampsoni # 1.32 Release Notes Lead
+            - sn3hay # 1.32 Release Notes Shado
             privacy: closed
           release-team-leads:
             description: Release Team Leads for the current Kubernetes release
@@ -374,13 +366,16 @@ teams:
               kubernetes/release, and kubernetes/sig-release, and can be used
               as a notification group. Remove org members who are not current
               Release Team Leads.
+            maintainers:
+            - Priyankasaggu11929 # 1.31 Release EA
             members:
-            - fsmunoz # 1.30 Release Lead Shadow
-            - gracenng # 1.30 RT EA
-            - katcosgrove # 1.30 RT Lead
-            - neoaggelos # 1.30 Release Lead Shadow
-            - ramrodo # 1.30 Release Lead Shadow
-            - sanchita-07 # 1.30 Release Lead Shadow
+            - fsmunoz # 1.32 Release Lead
+            - jimangel # 1.32 Release Branch Manager
+            - katcosgrove  # 1.32 Release EA
+            - npolshakova # 1.32 Release Lead shadow
+            - salehsedghpour # 1.32 Release Lead Shadow
+            - sreeram-venkitesh # 1.32 Release Lead Shadow
+            - Vyom-Yadav # 1.32 Release Lead Shadow
             privacy: closed
             repos:
               kubernetes: write

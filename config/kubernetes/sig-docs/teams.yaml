@@ -24,6 +24,7 @@ teams:
     description: Approvers for English content
     members:
     - bradtopol
+    - dipesh-rawat  
     - divya-mohan0209
     - katcosgrove
     - kbhawkey
@@ -32,6 +33,7 @@ teams:
     - nate-double-u
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - tengqm
     privacy: closed
@@ -48,6 +50,7 @@ teams:
     - nate-double-u
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - shannonxtreme
     - tengqm
@@ -87,16 +90,17 @@ teams:
   sig-docs-hi-owners:
     description: Approvers for Hindi content
     members:
-    - anubha-v-ardhan
+    - dipesh-rawat
     - divya-mohan0209
     privacy: closed
   sig-docs-hi-reviews:
     description: PR reviews for Hindi content
     members:
-    - anubha-v-ardhan
     - Babapool
     - bishal7679
+    - dipesh-rawat    
     - divya-mohan0209
+    - niranjandarshann
     privacy: closed
   sig-docs-id-owners:
     description: Approvers for Indonesian content
@@ -129,17 +133,21 @@ teams:
   sig-docs-ja-owners:
     description: Approvers for Japanese content
     members:
+    - bells17
     - inductor
     - nasa9084
+    - Okabe-Junya
     privacy: closed
   sig-docs-ja-reviews:
     description: PR reviews for Japanese content
     members:
     - atoato88
+    - b1gb4by
     - bells17
     - inductor
     - kakts
     - nasa9084
+    - Okabe-Junya
     - t-inu
     privacy: closed
   sig-docs-ko-owners:
@@ -168,6 +176,7 @@ teams:
     - natalisucks
     - onlydole
     - reylejano
+    - salaxander
     - sftim
     - tengqm
     privacy: closed
@@ -188,12 +197,14 @@ teams:
     description: Approvers for Russian content
     members:
     - Arhell
+    - kirkonru
     - shurup
     privacy: closed
   sig-docs-ru-reviews:
     description: Reviews for Russian docs PRs
     members:
     - Arhell
+    - kirkonru
     - shurup
     privacy: closed
   sig-docs-pr-reviews:
@@ -205,6 +216,7 @@ teams:
     - kbhawkey
     - natalisucks
     - reylejano
+    - salaxander
     - tengqm
     privacy: closed
   sig-docs-pt-owners:
@@ -301,7 +313,9 @@ teams:
     description: Write access to the website repo
     members:
     - a-mccarthy # Localization subproject owner
+    - bells17 # L10n: Japanese
     - bradtopol # L10n: English
+    - chanieljdan # 1.32 temporary release docs lead access
     - devlware # L10: Portuguese
     - divya-mohan0209 # L10n: English
     - femrtnz # L10n: Portuguese
@@ -318,11 +332,13 @@ teams:
     - natalisucks # L10n: English
     - nate-double-u # L10n: English
     - nvtkaszpir # L10n: Polish
+    - Okabe-Junya #L10n: Japanese
     - onlydole # L10n: English
     - raelga # L10n: Spanish
     - remyleone # L10n: French
     - reylejano # L10n: English
     - rlenferink # L10n: German
+    - salaxander # L10n: English
     - SataQiu # L10n: Chinese
     - seokho-son # L10n: Korean
     - sftim # L10n: English
@@ -338,39 +354,42 @@ teams:
     description: Contributors who can use `/milestone` in the website repo
     members:
     - a-mccarthy
+    - anshumantripathi # 1.32 RT Docs Shadow
     - bene2k1
     - bradtopol
-    - celestehorgan # 1.30 Docs Shadow
-    - chanieljdan # 1.30 Docs Shadow
+    - chanieljdan # 1.32 Docs Lead
     - divya-mohan0209
-    - drewhagen # 1.30 RT Docs Lead
+    - drewhagen # 1.31 RT Docs Lead temporary access for the release
     - femrtnz
     - girikuncoro
     - gochist
+    - hacktivist123 # 1.32 RT Docs Shadow
     - huynguyennovem
     - inductor
     - jcjesus
-    - katcosgrove # 1.29 RT Docs Lead
+    - michellengnx # 1.32 RT Docs Shadow
     - mickeyboxell
     - nasa9084
     - natalisucks
     - nate-double-u
     - onlydole
     - perriea
-    - Princesso # 1.30 Docs Shadow
+    - Princesso # 1.31 Docs Lead
     - raelga
+    - rdalbuquerque # 1.32 RT Docs Shadow
     - rekcah78
     - remyleone
     - reylejano
     - rlenferink
+    - salaxander
     - SataQiu
     - seokho-son
     - sftim
     - shurup
+    - spurin # 1.32 RT Docs Shadow
     - tanjunchen
     - tengqm
     - truongnh1992
-    - Vyom-Yadav # 1.30 Docs Shadow
     - xichengliudui
     - ysyukr
     privacy: closed
